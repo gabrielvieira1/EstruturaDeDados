@@ -14,10 +14,13 @@ public class Main {
 		vetor.adiciona(cliente2);
 		vetor.adiciona(cliente3);
 		vetor.adiciona(cliente4);
-		vetor.adicionaMeio(cliente5);
-		vetor.busca(cliente2);
-		vetor.buscaPosicao(3);
+		vetor.adiciona(2, cliente5);
+		System.out.println(vetor.busca(cliente2));
+		System.out.println(vetor.buscaPosicao(3));
 		vetor.remove(1);
+		System.out.println(vetor.tamanho());
+	    System.out.println(vetor);
+
 
 	}
 

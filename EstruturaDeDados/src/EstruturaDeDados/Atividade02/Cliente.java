@@ -4,6 +4,7 @@ public class Cliente {
 
 	private String nome;
 	private int fone;
+	private String email;
 	private double valorCompra;
 
 	public Cliente(String nome, int fone, double valorCompra) {
@@ -35,6 +36,18 @@ public class Cliente {
 
 	public void setValorCompra(double valorCompra) {
 		this.valorCompra = valorCompra;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String toString() {
+		return getNome() + "; " + getFone() +"; "+ getValorCompra();
 	}
 
 }
