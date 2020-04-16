@@ -1,4 +1,4 @@
-package EstruturaDeDados.Atividade06;
+package EstruturaDeDados.Atividade06Exemplo;
 
 public class Fila_exemplo {
 	
