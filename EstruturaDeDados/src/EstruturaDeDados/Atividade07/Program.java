@@ -65,6 +65,7 @@ public class Program<T> {
 		}
 	}
 
+	//novo teste
 	// Metodo altera Case
 	public static String[] alteraCase(String[] el) {
 		for (int i = 0; i < el.length; i++) {
