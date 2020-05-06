@@ -65,6 +65,7 @@ public class Program<T> {
 		}
 	}
 
+	// Metodo altera Case
 	public static String[] alteraCase(String[] el) {
 		for (int i = 0; i < el.length; i++) {
 			el[i] = el[i].substring(0, 1).toUpperCase().concat(el[i].substring(1));
