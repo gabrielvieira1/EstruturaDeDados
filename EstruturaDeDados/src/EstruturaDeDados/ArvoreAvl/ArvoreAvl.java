@@ -1,4 +1,4 @@
-package EtruturaDeDados.ArvoreAvl;
+package EstruturaDeDados.ArvoreAvl;
 
 import java.util.ArrayList;
 
@@ -41,7 +41,7 @@ public class ArvoreAvl {
 				}
 
 			} else {
-				// O nó já existe
+				// O nï¿½ jï¿½ existe
 			}
 		}
 	}
@@ -275,7 +275,7 @@ public class ArvoreAvl {
 	
 		System.out.print("\n Altura da arvore: " + altura(raiz));
 		//System.out.print("\n Quantidade de folhas: " + folhas(root));
-		//System.out.print("\n Quantidade de Nós: " + contarNos(root));
+		//System.out.print("\n Quantidade de Nï¿½s: " + contarNos(root));
 	/*	if (raiz != null) { // se arvore nao esta vazia
 			System.out.print("\n Valor minimo: " + min().item);
 			System.out.println("\n Valor maximo: " + max().item);

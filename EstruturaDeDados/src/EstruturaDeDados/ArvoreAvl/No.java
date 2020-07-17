@@ -1,4 +1,4 @@
-package EtruturaDeDados.ArvoreAvl;
+package EstruturaDeDados.ArvoreAvl;
 
 public class No {
 	
